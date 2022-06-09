@@ -1,6 +1,6 @@
 %{
 #include <stdio.h>
-int sym[26];
+int sym[52];
 %}
 
 %token  INTEGER VARIABLE
