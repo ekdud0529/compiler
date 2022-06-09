@@ -8,7 +8,7 @@ digit            [0-9]+
 %%
 
 [a-z]            {
-                    yylval = *yytext - 'a';
+                    yylval = *yytext - 'a' + 26;
                     return VARIABLE;
                  }
 
